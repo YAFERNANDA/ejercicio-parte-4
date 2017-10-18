@@ -1,0 +1,24 @@
+span{
+  /* para que este en bloques en linea*/
+  display: inline-block;
+  /* quiero separar miSSs blques*/
+  margin: 10px;
+  /* qquiero separar mi texto*/
+  padding: 8px;
+  /* quiero que se respete mi tamaño*/
+  box-sizing: border-box;
+  width: 156px;
+
+}
+/* con selector clase podre manipular a mi atributo de clase yellow */
+.yellow{
+  background-color: #ffc107;
+}
+
+/* selector clase me permite darle vida a inline span con atributo class black */
+.black{
+  /* quiero que mi fondo tenga el color negro*/
+  background-color: #373535;
+  /* mi letra debe ser de color blanco*/
+  color: white;
+}
